@@ -207,6 +207,7 @@ var cart = {
 			},
 			complete: function() {
 				$('#cart > button').button('reset');
+				$('#form-checkout-cart').submit();
 			},
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total

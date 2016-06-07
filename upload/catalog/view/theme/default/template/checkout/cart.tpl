@@ -34,7 +34,7 @@
         &nbsp;(<?php echo $weight; ?>)
         <?php } ?>
       </h1>
-      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form-checkout-cart">
         <div class="table-responsive">
           <table class="table table-bordered">
             <thead>
